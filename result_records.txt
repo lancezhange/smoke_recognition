@@ -1,0 +1,23 @@
+RGBspace_HOG + LR
+Logistic regression :
+             precision    recall  f1-score   support
+
+          0       0.93      0.90      0.91       194
+          1       0.83      0.88      0.85       109
+
+avg / total       0.89      0.89      0.89       303
+
+
+
+RGBspace_HOG + GradientBoost
+classifier score
+             precision    recall  f1-score   support
+
+          0       0.91      0.93      0.92       191
+          1       0.88      0.84      0.86       112
+
+avg / total       0.90      0.90      0.90       303
+
+其他诸如 adaboost 等也给出大致相似的结果
+
+注意标准化后结果变差

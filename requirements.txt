@@ -1,0 +1,8 @@
+numpy
+scipy
+sklearn
+skimage
+cPickle
+cv2
+configParser
+logging
